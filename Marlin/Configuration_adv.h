@@ -3174,10 +3174,13 @@
   #define USER_GCODE_1 "M118 //action:lightsOn"
 
   #define USER_DESC_2 "Lights OFF"
-  #define USER_GCODE_2 "M118 //action:lightsOff"
+  #define USER_GCODE_2 "M118 //action:cancel"
 
-  #define USER_DESC_3 "Shutdown"
+  #define USER_DESC_3 "Cancel"
   #define USER_GCODE_3 "M118 //action:powerOff"
+
+  #define USER_DESC_4 "Shutdown"
+  #define USER_GCODE_4 "M118 //action:powerOff"
 #endif
 
 /**

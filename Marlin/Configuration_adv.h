@@ -3177,7 +3177,7 @@
   #define USER_GCODE_2 "M118 //action:lightsOff"
 
   #define USER_DESC_3 " "
-  #define USER_GCODE_3 "–––––"
+  #define USER_GCODE_3 "-----"
 
   #define USER_DESC_4 "Cancel"
   #define USER_GCODE_4 "M118 //action:cancel"

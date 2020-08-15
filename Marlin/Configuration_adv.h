@@ -3194,11 +3194,14 @@
   #define USER_DESC_3 "-----"
   #define USER_GCODE_3 " "
 
-  #define USER_DESC_4 "Cancel"
-  #define USER_GCODE_4 "M118 //action:cancel"
+  #define USER_DESC_4 "Resume print"
+  #define USER_GCODE_4 "M118 //action:resume"
 
-  #define USER_DESC_5 "Shutdown"
-  #define USER_GCODE_5 "M118 //action:powerOff"
+  #define USER_DESC_5 "Cancel"
+  #define USER_GCODE_5 "M118 //action:cancel"
+
+  #define USER_DESC_6 "Shutdown"
+  #define USER_GCODE_6 "M118 //action:powerOff"
 #endif
 
 /**
@@ -3215,9 +3218,9 @@
  * Host Prompt Support enables Marlin to use the host for user prompts so
  * filament runout and other processes can be managed from the host side.
  */
-//#define HOST_ACTION_COMMANDS
+#define HOST_ACTION_COMMANDS
 #if ENABLED(HOST_ACTION_COMMANDS)
-  //#define HOST_PROMPT_SUPPORT
+  #define HOST_PROMPT_SUPPORT
 #endif
 
 /**
